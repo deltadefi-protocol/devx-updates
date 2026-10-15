@@ -5,14 +5,12 @@ As of 2026-10-15.
 
 ## Purpose
 
-This is a targeted follow-up to the Cardano Foundation's 2025 State of the Cardano Developer
-Ecosystem survey. The 2025 survey measured developer-level tool use; this survey asks
-maintainers and contributors for **project-level** dependency, reach and developer-experience
-evidence. It is not a census and does not estimate Cardano's total developer population.
+This survey asks maintainers and contributors of Cardano developer tooling projects for
+**project-level** dependency, reach and developer-experience evidence. It is not a census and does not estimate Cardano's total developer population.
 
 - **Population:** one response per developer tooling project. A response from someone outside
   the project may inform follow-up but is not counted as the project's response.
-- **Expected time:** 15–20 minutes.
+- **Expected time:** 10–15 minutes.
 
 **Continuity source.** Question families and answer labels marked `CF25` below are adapted from
 the [Cardano Foundation's 2025 survey definition](https://github.com/cardano-foundation/state-of-the-developer-ecosystem/blob/1c25db955b5bd0f97f4924b10dbe744a6f1e4073/survey/public/survey.json)
@@ -30,6 +28,8 @@ deleted 12 months after submission; earlier deletion on request to hinson.wong@d
 > friction, and which small improvements could have the greatest ecosystem effect. Your answers
 > will inform the Cardano DevX tooling map, scoring methodology and future remediation work.
 >
+> This survey asks only about the project you maintain.
+>
 > Participation is voluntary. Please submit one response per project. By default, results are
 > reported only in aggregate and identified by a response id. Your name, email and raw response
 > will not be published. Separate optional questions let you permit project attribution or a
@@ -42,14 +42,14 @@ deleted 12 months after submission; earlier deletion on request to hinson.wong@d
 | ID | Question shown to respondent | Type and options | Req. | Logic / use |
 | --- | --- | --- | --- | --- |
 | C1 | I have read the notice above and consent to my answers being collected, analysed and reported in aggregate for the Cardano DevX Initiative. | Single choice: `Yes`; `No` | Yes | If `No`, end without saving a response. |
-| C2 | Are you responding for a specific Cardano developer tooling project? | Single choice: `Yes`; `No` | Yes | If `No`, end and link to the public correction route; this survey measures project-level evidence. |
+| C2 | Are you responding for a specific Cardano developer tooling project? | Single choice: `Yes`; `No` | Yes | If `No`, end without saving a response. |
 | C3 | Which best describes your relationship to this project? | Single choice: `Maintainer or project lead`; `Core contributor`; `Regular contributor`; `Integrator or downstream developer`; `User`; `Other — describe` | Yes | The first three count as a project response; others need verification. |
 | C4 | Are you authorised or reasonably placed to answer on behalf of the project? | Single choice: `Yes`; `No`; `Unsure` | Yes | A project response requires `Yes`; otherwise flagged for follow-up. |
 
 ## Section 2 — project identity and response metadata
 
 Each response also records its survey wave (`wave_id`, for example `survey-2026` or
-`hackathon-2026`). This is metadata, not a question.
+`event-2026`). This is metadata, not a question.
 
 | ID | Question shown to respondent | Type and options | Req. | Logic / use |
 | --- | --- | --- | --- | --- |
@@ -93,22 +93,21 @@ Answers here are team-reported and are never presented as independently measured
 | X5 | What counts as the first successful result for this project? | Short text | Yes | Makes X4 interpretable. |
 | X6 | Overall, how satisfied are you with the project's current developer onboarding experience? | 0–10 scale: `0 Not at all satisfied`; `10 Completely satisfied` | Yes | Project self-assessment; not comparable with CF25 question 32. |
 | X7 | What is the single biggest obstacle developers encounter when adopting this project? | Long text | Yes | Qualitative theme. |
-| X8 | If a developer is blocked, where should they seek help? | Checkboxes: `Project documentation`; `GitHub issues/discussions`; `Discord`; `Cardano Forum`; `Stack Exchange`; `Telegram`; `Direct team contact`; `AI/LLM`; `Other — describe`; `No reliable support route` | Yes | Labels partly adapted from CF25 question 30. |
 | X12 | How well do AI coding assistants (for example Copilot, Claude, ChatGPT or Cursor) produce working code with this project today? | Single choice: `1 Rarely produce working code`; `2 Often need major fixes`; `3 Work with some fixes`; `4 Usually work`; `5 Reliably work`; `Not tried / do not know` | Yes | Baseline for AI-readiness; re-asked after improvements to show change. |
 
-## Section 6 — ecosystem assessment
+## Section 6 — peer suggestions
 
 | ID | Question shown to respondent | Type and options | Req. | Logic / use |
 | --- | --- | --- | --- | --- |
-| E1 | If you were onboarding a developer to Cardano today, what is the single biggest tooling gap they would encounter? | Long text | Yes | Newcomer lens. |
-| E2 | What is the greatest strength of Cardano's developer tooling ecosystem today? | Long text | No | Continuity with CF25 question 27. |
-| E3 | What is the greatest pain point in Cardano's developer tooling ecosystem today? | Long text | No | Continuity with CF25 question 28. |
 | E5 | Are there any other teams, besides your own, whose input you would highly value? | Long text: `team or project \| URL (optional) \| why`, one per line | No | Peer-suggested contacts; never implies inclusion. |
 
 ## Section 7 — reusable NPS module
 
-This module is re-used unchanged in later waves, including the hackathon. The wave is recorded
+This module is re-used unchanged in later waves. The wave is recorded
 in `wave_id`; N1 never changes between waves and stays one unbroken 0–10 item.
+
+The module can also be fielded on its own in a later wave, for example at a developer event:
+C1 (consent), then N1–N2.
 
 | ID | Question shown to respondent | Type and options | Req. | Logic / use |
 | --- | --- | --- | --- | --- |
@@ -131,7 +130,7 @@ response aggregate-only.
 | A7 | What, if anything, would block such a contribution? | Checkboxes: `CLA required`; `Limited review capacity`; `Conflicts with our roadmap`; `Licence constraints`; `Already planned internally`; `Other — describe`; `None` | Yes | `None` clears the other options. |
 | A8 | Public GitHub handle of the person who would review it | Short text | Conditional | Kept private; never published. |
 
-Question ids are stable. Ids missing from the sequence (X3, X9–X11, U2–U4, E4) were removed after testing
+Question ids are stable. Ids missing from the sequence (X3, X8–X11, U2–U4, E1–E4) were removed after testing
 and review, and are not reused.
 
 ## Completion page
