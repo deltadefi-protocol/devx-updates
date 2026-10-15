@@ -1,7 +1,7 @@
 # Cardano developer tooling evidence survey
 
 The survey instrument for the Cardano DevX tooling-evidence workstream, run by Delta Lab.
-As of 2026-10-15.
+As of 2026-10-16.
 
 ## Purpose
 
@@ -71,6 +71,11 @@ A dependency means software or a service the project needs to build, test, run o
 core developer-facing function. Ordinary development utilities such as Git or a text editor
 are omitted. For D1 and D5, one item per line.
 
+**Compatibility context (checked 2026-10-16).** [Intersect's update of 2026-10-09](https://www.intersectmbo.org/news/intersect-weekly-update-132-oct-9-2026)
+describes node 11.2 as planned to include the Dijkstra feature set except Leios. D10 concerns
+the features relevant to the respondent's project; “within two weeks” means within 14 days
+of responding. D7–D9 remain retired.
+
 | ID | Question shown to respondent | Type and options | Req. | Logic / use |
 | --- | --- | --- | --- | --- |
 | D1 | Which Cardano libraries, tools, protocols or services does this project directly depend on? Enter one per line as `name \| public URL \| role in your project`. Write `None known` if applicable. | Long text | Yes | Primary project-level dependency evidence. |
@@ -79,6 +84,8 @@ are omitted. For D1 and D5, one item per line.
 | D4 | What public evidence supports the dependencies listed above? | Long text: URLs, one per line | No | For example a manifest, imports, architecture docs or an integration guide. |
 | D5 | Which projects, products or teams directly depend on this project, to your knowledge? Enter one per line as `name \| public URL \| relationship`. Write `None known` if applicable. | Long text | Yes | Downstream evidence; claims are verified publicly or in an interview. |
 | D6 | What are the closest alternatives or complementary tools to this project? | Long text: one per line; `None known` allowed | No | Ecosystem coverage and interview sampling. |
+| D10 | Is this project compatible with Cardano node 11.2, or will it be compatible within the next two weeks? | Single choice: `Compatible now`; `Not yet, but expected within two weeks`; `Not expected within two weeks`; `Unsure / not yet assessed`; `Not applicable to this project` | Yes | No preselected answer. Current readiness and expected readiness are reported separately; not a tooling score. |
+| D11 | If this project is not ready yet, what needs to happen for it to become compatible? | Long text | Conditional | Required for D10 = expected within two weeks, not expected within two weeks, or unsure. Prompt for changes, dependency updates, documentation, testing access or support needed, and an expected readiness date if known. |
 
 ## Section 4 — usage and reach
 
@@ -158,6 +165,8 @@ survey.
   contributor, and C4 is `Yes`; one response per project, with conflicts documented.
 - Team-reported adoption (U1, U5) is kept separate from measured survey usage and map-derived
   dependency counts.
+- D10 records team-reported readiness as of the response date. Compatibility now and expected
+  compatibility within two weeks are reported separately; neither changes tooling scores.
 - D3, U5, X4 and X6 are ordinal team judgements and are not averaged into tooling scores.
 - Open-text themes are published with response counts; quotations and project names only with
   A2 and A1 permission.
