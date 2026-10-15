@@ -11,6 +11,12 @@ This survey asks maintainers and contributors of Cardano developer tooling proje
 - **Population:** one response per developer tooling project. A response from someone outside
   the project may inform follow-up but is not counted as the project's response.
 - **Expected time:** 10–15 minutes.
+- **Alongside the Cardano Foundation's developer survey.** The Foundation's yearly
+  [State of the Cardano Developer Ecosystem](https://cardano-foundation.github.io/state-of-the-developer-ecosystem/)
+  survey asks individual developers what they build with and what gets in their way. This
+  survey asks only what that one does not: project-level dependencies, reach, onboarding and
+  contribution readiness. Questions the Foundation's 2026 edition already asks are left out,
+  and respondents are invited to answer the Foundation's survey when they finish this one.
 
 **Continuity source.** Question families and answer labels marked `CF25` below are adapted from
 the [Cardano Foundation's 2025 survey definition](https://github.com/cardano-foundation/state-of-the-developer-ecosystem/blob/1c25db955b5bd0f97f4924b10dbe744a6f1e4073/survey/public/survey.json)
@@ -138,6 +144,13 @@ and review, and are not reused.
 > Thank you. Your response has been recorded under a response id. We may contact you only if
 > you permitted follow-up. Project attribution and quotations will follow the permissions you
 > selected. Public findings will be published in the Cardano DevX updates repository.
+>
+> One more thing: if you haven't yet, please also answer the Cardano Foundation's
+> [State of the Cardano Developer Ecosystem](https://cardano-foundation.github.io/state-of-the-developer-ecosystem/)
+> survey. It asks every Cardano developer, not only maintainers, about the tools they use.
+
+A response that ends early because C1 or C2 is `No` sees the same invitation to the Foundation's
+survey.
 
 ## How results are reported
 

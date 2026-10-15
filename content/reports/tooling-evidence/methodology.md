@@ -43,6 +43,16 @@ It keeps the same three inputs and transforms and recalibrates the weights.
 Alternatives compared before choosing 60/10/30: 50/20/30 (unchanged) and 70/10/20. On the map
 above, 60/10/30 and 70/10/20 select the same 25 candidates.
 
+## Data updates
+
+Scores use the Cardano Foundation's 2025 developer survey
+([report](https://cardano-foundation.github.io/state-of-the-developer-ecosystem/2025/)) as the
+usage input, and the weights, formula and rules above stay fixed for the whole workstream.
+When results of the Foundation's 2026 survey become available (its responses are recorded on
+chain, so they can be read while it is still open), they are published as a dated addendum to
+this analysis: response count, snapshot date and a comparison of 2026 usage with 2025 for the
+tools both editions list. The addendum does not re-score projects.
+
 ## Assumptions
 
 - Share of 2025 survey respondents using a project is a fair proxy for how widely developers
