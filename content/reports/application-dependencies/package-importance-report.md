@@ -82,28 +82,3 @@ Scores describe recorded map connectivity, not verified production reliance.
 | SDKs & Libraries | 5 | cardano-serialization-lib (CSL) (`cardano-serialization-lib-csl`) | 22.225854 |
 | SDKs & Libraries | 6 | cardano-multiplatform-lib (CML) (`cardano-multiplatform-lib-cml`) | 17.734499 |
 | Wallets & Connectivity | 1 | cardano-hw-cli (`cardano-hw-cli`) | 11.448842 |
-
-## Score calculations for Mesh Whisky and Vodka
-
-The following calculations show the input values, contributions and missing-data treatment.
-
-### MeshJS (Mesh SDK)
-
-Inputs from the dated map: usage 37%; stars 270; degree 9.
-Known contributions: usage=22.200000 points, stars=2.904738 points, connectivity=6.923077 points.
-Score range: 32.027814–32.027814. Rank 1 within SDKs & Libraries only.
-Review state: candidate.
-
-### whisky
-
-Inputs from the dated map: usage unknown%; stars 16; degree 4.
-Known contributions: usage=unknown points, stars=0.707107 points, connectivity=3.076923 points.
-Score range: 3.784030–63.784030. Unranked because inputs are missing; unknown usage is not low usage.
-Review state: unranked.
-
-### Vodka
-
-Inputs from the dated map: usage unknown%; stars 30; degree 1.
-Known contributions: usage=unknown points, stars=0.968246 points, connectivity=0.769231 points.
-Score range: 1.737477–61.737477. Unranked because inputs are missing; unknown usage is not low usage.
-Review state: unranked.
