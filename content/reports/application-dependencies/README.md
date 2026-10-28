@@ -1,6 +1,6 @@
 # Application dependencies and tooling evidence
 
-Prepared 27 October 2026; packaged for draft review on 28 October 2026.
+Prepared 27 October 2026; packaged for review on 28 October 2026.
 
 This directory contains an evidence snapshot. It does not replace the site’s
 `data/cardano-graph.json` or update the map viewer.

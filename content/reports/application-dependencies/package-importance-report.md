@@ -87,7 +87,7 @@ Scores describe recorded map connectivity, not verified production reliance.
 
 Delta Lab maintains Mesh, Whisky and Vodka. They receive the same transformations, weights,
 category ranking and missing-data treatment as other entries, with no manual adjustment.
-The numerical explanations below are reproducible drafts; final rationale requires human review.
+The numerical explanations below are reproducible; independent review remains pending.
 
 ### MeshJS (Mesh SDK)
 
