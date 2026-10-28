@@ -9,13 +9,11 @@ All 20 retain explicit gaps. These are counts of documented relationships, not v
 
 ## Reading the relationships
 
-- The application column identifies the research context. Only the named component is linked to the tool.
-- Manifest declarations establish source-package dependencies, not runtime execution or production adoption.
-- Documentation, provider adapters and examples establish capabilities or claims at the stated strength.
-- Prototype, testing, historical and unavailable-source qualifications must survive any later map conversion.
-- Application transaction counts are not scoring inputs; sourced map relationships contribute to graph degree.
-- A later repository snapshot does not prove which stack generated transactions in an earlier reporting window.
-- This table uses the existing research. Omitted tools are unknown or outside the recorded scope, not absent.
+Each row applies only to its named component. Manifests establish package dependencies;
+documentation and examples retain their stated evidence strength. Optional, testing,
+prototype and historical records do not establish production adoption. Missing matches
+remain unknown. Application ranks order the review; transaction counts are not tool
+scoring inputs, while recorded relationships contribute to graph degree.
 
 ## Manifest relationships
 
@@ -91,8 +89,7 @@ All 20 retain explicit gaps. These are counts of documented relationships, not v
 
 ## Gaps across the researched applications
 
-No unknown tool is encoded as a dependency edge. Evidence links here identify the inspected
-research material; lack of a match is not proof that the application has no dependency.
+Unknown tools are not encoded as dependency edges; the sources below identify the inspected material.
 
 | Application | Relationships recorded | Remaining uncertainty | Inspected sources |
 | --- | --- | --- | --- |
@@ -119,228 +116,191 @@ research material; lack of a match is not proof that the application has no depe
 
 ## Sources
 
-Immutable source commits are retained where available. Unpinned websites and unavailable
-historical/indexed sources carry their limitations; they are not equivalent to manifests.
+All sources were checked **2026-10-22**. Links pin source commits where available;
+commit dates and access limitations are retained below. Unpinned websites and
+indexed/unavailable material have weaker provenance than pinned manifests.
 
 <a id="source-s001"></a>
-- **S001** [Hosky claims prototype README](https://github.com/HOSKYToken/poo-genericClaim/blob/bdceb649269240a9f1c5f891f48c0df351fcb71a/README.md) — checked 2026-10-22.
-  Source commit: `bdceb649269240a9f1c5f891f48c0df351fcb71a`.
+- **S001** [Hosky claims prototype README](https://github.com/HOSKYToken/poo-genericClaim/blob/bdceb649269240a9f1c5f891f48c0df351fcb71a/README.md).
 
 <a id="source-s002"></a>
-- **S002** [minswap/minswap-dex-v2 / aiken.toml](https://github.com/minswap/minswap-dex-v2/blob/c3293ad435792ba502f5a2b1691c6736e5f167e6/aiken.toml) — checked 2026-10-22.
-  Source commit: `c3293ad435792ba502f5a2b1691c6736e5f167e6`.
+- **S002** [minswap/minswap-dex-v2 / aiken.toml](https://github.com/minswap/minswap-dex-v2/blob/c3293ad435792ba502f5a2b1691c6736e5f167e6/aiken.toml).
 
 <a id="source-s003"></a>
-- **S003** [minswap/minswap-dex-v2 / README.md](https://github.com/minswap/minswap-dex-v2/blob/c3293ad435792ba502f5a2b1691c6736e5f167e6/README.md) — checked 2026-10-22.
-  Source commit: `c3293ad435792ba502f5a2b1691c6736e5f167e6`.
+- **S003** [minswap/minswap-dex-v2 / README.md](https://github.com/minswap/minswap-dex-v2/blob/c3293ad435792ba502f5a2b1691c6736e5f167e6/README.md).
 
 <a id="source-s004"></a>
-- **S004** [minswap/sdk / package.json](https://github.com/minswap/sdk/blob/ee95d4317414ae1fe2cdc40549e14a1e185dcf59/package.json) — checked 2026-10-22.
-  Source commit: `ee95d4317414ae1fe2cdc40549e14a1e185dcf59`.
+- **S004** [minswap/sdk / package.json](https://github.com/minswap/sdk/blob/ee95d4317414ae1fe2cdc40549e14a1e185dcf59/package.json).
 
 <a id="source-s005"></a>
-- **S005** [minswap/sdk / README.md](https://github.com/minswap/sdk/blob/ee95d4317414ae1fe2cdc40549e14a1e185dcf59/README.md) — checked 2026-10-22.
-  Source commit: `ee95d4317414ae1fe2cdc40549e14a1e185dcf59`.
+- **S005** [minswap/sdk / README.md](https://github.com/minswap/sdk/blob/ee95d4317414ae1fe2cdc40549e14a1e185dcf59/README.md).
 
 <a id="source-s006"></a>
-- **S006** [Official website](https://5am.earth/) — checked 2026-10-22.
+- **S006** [Official website](https://5am.earth/).
 
 <a id="source-s007"></a>
-- **S007** [Official case study](https://5am.earth/case-studies/) — checked 2026-10-22.
+- **S007** [Official case study](https://5am.earth/case-studies/).
 
 <a id="source-s008"></a>
-- **S008** [Public organisation proposal repository](https://github.com/5am-earth/cardano-budget-2026) — checked 2026-10-22.
+- **S008** [Public organisation proposal repository](https://github.com/5am-earth/cardano-budget-2026).
 
 <a id="source-s009"></a>
-- **S009** [dano-finance/clmm-sdk / package.json](https://github.com/dano-finance/clmm-sdk/blob/0416dc1f3531ce77eec7664ea3947f192a3aca40/package.json) — checked 2026-10-22.
-  Source commit: `0416dc1f3531ce77eec7664ea3947f192a3aca40`.
+- **S009** [dano-finance/clmm-sdk / package.json](https://github.com/dano-finance/clmm-sdk/blob/0416dc1f3531ce77eec7664ea3947f192a3aca40/package.json).
 
 <a id="source-s010"></a>
-- **S010** [dano-finance/clmm-sdk / README.md](https://github.com/dano-finance/clmm-sdk/blob/0416dc1f3531ce77eec7664ea3947f192a3aca40/README.md) — checked 2026-10-22.
-  Source commit: `0416dc1f3531ce77eec7664ea3947f192a3aca40`.
+- **S010** [dano-finance/clmm-sdk / README.md](https://github.com/dano-finance/clmm-sdk/blob/0416dc1f3531ce77eec7664ea3947f192a3aca40/README.md).
 
 <a id="source-s011"></a>
-- **S011** [WingRiders/rapid-dex-contracts / aiken.toml](https://github.com/WingRiders/rapid-dex-contracts/blob/6afe522d9116e81359e30cc202feab5f3d0b8e60/aiken.toml) — checked 2026-10-22.
-  Source commit: `6afe522d9116e81359e30cc202feab5f3d0b8e60`.
+- **S011** [WingRiders/rapid-dex-contracts / aiken.toml](https://github.com/WingRiders/rapid-dex-contracts/blob/6afe522d9116e81359e30cc202feab5f3d0b8e60/aiken.toml).
 
 <a id="source-s012"></a>
-- **S012** [WingRiders/rapid-dex / sdk/core/package.json](https://github.com/WingRiders/rapid-dex/blob/9e4921e373796b0d3feaf73a342246e24231cde5/sdk/core/package.json) — checked 2026-10-22.
-  Source commit: `9e4921e373796b0d3feaf73a342246e24231cde5`.
+- **S012** [WingRiders/rapid-dex / sdk/core/package.json](https://github.com/WingRiders/rapid-dex/blob/9e4921e373796b0d3feaf73a342246e24231cde5/sdk/core/package.json).
 
 <a id="source-s013"></a>
-- **S013** [WingRiders/rapid-dex / sdk/core/README.md](https://github.com/WingRiders/rapid-dex/blob/9e4921e373796b0d3feaf73a342246e24231cde5/sdk/core/README.md) — checked 2026-10-22.
-  Source commit: `9e4921e373796b0d3feaf73a342246e24231cde5`.
+- **S013** [WingRiders/rapid-dex / sdk/core/README.md](https://github.com/WingRiders/rapid-dex/blob/9e4921e373796b0d3feaf73a342246e24231cde5/sdk/core/README.md).
 
 <a id="source-s014"></a>
-- **S014** [WingRiders/dex-blockfrost-adapter / README.md](https://github.com/WingRiders/dex-blockfrost-adapter/blob/99a1c7106dfcc2c32ff62345991608f222ad92a8/README.md) — checked 2026-10-22.
-  Source commit: `99a1c7106dfcc2c32ff62345991608f222ad92a8`.
+- **S014** [WingRiders/dex-blockfrost-adapter / README.md](https://github.com/WingRiders/dex-blockfrost-adapter/blob/99a1c7106dfcc2c32ff62345991608f222ad92a8/README.md).
 
 <a id="source-s015"></a>
-- **S015** [SundaeSwap-finance/sundae-contracts / README.md](https://github.com/SundaeSwap-finance/sundae-contracts/blob/be33466b7dbe0f8e6c0e0f46ff23737897f45835/README.md) — checked 2026-10-22.
-  Source commit: `be33466b7dbe0f8e6c0e0f46ff23737897f45835`.
+- **S015** [SundaeSwap-finance/sundae-contracts / README.md](https://github.com/SundaeSwap-finance/sundae-contracts/blob/be33466b7dbe0f8e6c0e0f46ff23737897f45835/README.md).
   Commit date: 2025-02-26T16:47:57Z.
 
 <a id="source-s016"></a>
-- **S016** [SundaeSwap-finance/sundae-contracts / aiken.toml](https://github.com/SundaeSwap-finance/sundae-contracts/blob/be33466b7dbe0f8e6c0e0f46ff23737897f45835/aiken.toml) — checked 2026-10-22.
-  Source commit: `be33466b7dbe0f8e6c0e0f46ff23737897f45835`.
+- **S016** [SundaeSwap-finance/sundae-contracts / aiken.toml](https://github.com/SundaeSwap-finance/sundae-contracts/blob/be33466b7dbe0f8e6c0e0f46ff23737897f45835/aiken.toml).
   Commit date: 2025-02-26T16:47:57Z.
 
 <a id="source-s017"></a>
-- **S017** [SundaeSwap-finance/sundae-sdk / packages/core/package.json](https://github.com/SundaeSwap-finance/sundae-sdk/blob/9f032253e0711e3a308068ed55cc85b5de71a348/packages/core/package.json) — checked 2026-10-22.
-  Source commit: `9f032253e0711e3a308068ed55cc85b5de71a348`.
+- **S017** [SundaeSwap-finance/sundae-sdk / packages/core/package.json](https://github.com/SundaeSwap-finance/sundae-sdk/blob/9f032253e0711e3a308068ed55cc85b5de71a348/packages/core/package.json).
   Commit date: 2026-10-17T02:13:44Z.
 
 <a id="source-s018"></a>
-- **S018** [SundaeSwap-finance/sundae-sdk / docs/guides/core/index.md](https://github.com/SundaeSwap-finance/sundae-sdk/blob/9f032253e0711e3a308068ed55cc85b5de71a348/docs/guides/core/index.md) — checked 2026-10-22.
-  Source commit: `9f032253e0711e3a308068ed55cc85b5de71a348`.
+- **S018** [SundaeSwap-finance/sundae-sdk / docs/guides/core/index.md](https://github.com/SundaeSwap-finance/sundae-sdk/blob/9f032253e0711e3a308068ed55cc85b5de71a348/docs/guides/core/index.md).
   Commit date: 2026-10-17T02:13:44Z.
 
 <a id="source-s019"></a>
-- **S019** [Official NIGHT launch and redemption guide](https://midnight.network/blog/guide-to-the-night-token-launch-and-redemption) — checked 2026-10-22.
+- **S019** [Official NIGHT launch and redemption guide](https://midnight.network/blog/guide-to-the-night-token-launch-and-redemption).
 
 <a id="source-s020"></a>
-- **S020** [splashprotocol/splash-core / plutarch-validators/plutarch-validators.cabal](https://github.com/splashprotocol/splash-core/blob/a185ee8668414fc2bafc232fb74533bc135137fd/plutarch-validators/plutarch-validators.cabal) — checked 2026-10-22.
-  Source commit: `a185ee8668414fc2bafc232fb74533bc135137fd`.
+- **S020** [splashprotocol/splash-core / plutarch-validators/plutarch-validators.cabal](https://github.com/splashprotocol/splash-core/blob/a185ee8668414fc2bafc232fb74533bc135137fd/plutarch-validators/plutarch-validators.cabal).
   Commit date: 2026-09-13T19:14:29Z.
 
 <a id="source-s021"></a>
-- **S021** [splashprotocol/splash-core / validators_v3/aiken.toml](https://github.com/splashprotocol/splash-core/blob/a185ee8668414fc2bafc232fb74533bc135137fd/validators_v3/aiken.toml) — checked 2026-10-22.
-  Source commit: `a185ee8668414fc2bafc232fb74533bc135137fd`.
+- **S021** [splashprotocol/splash-core / validators_v3/aiken.toml](https://github.com/splashprotocol/splash-core/blob/a185ee8668414fc2bafc232fb74533bc135137fd/validators_v3/aiken.toml).
   Commit date: 2026-09-13T19:14:29Z.
 
 <a id="source-s022"></a>
-- **S022** [splashprotocol/protocol-sdk / packages/builder/package.json](https://github.com/splashprotocol/protocol-sdk/blob/ebc01e8871284c6ac450c35e8d5e3bcab7d5fb56/packages/builder/package.json) — checked 2026-10-22.
-  Source commit: `ebc01e8871284c6ac450c35e8d5e3bcab7d5fb56`.
+- **S022** [splashprotocol/protocol-sdk / packages/builder/package.json](https://github.com/splashprotocol/protocol-sdk/blob/ebc01e8871284c6ac450c35e8d5e3bcab7d5fb56/packages/builder/package.json).
   Commit date: 2025-11-29T09:03:49Z.
 
 <a id="source-s023"></a>
-- **S023** [splashprotocol/splash-offchain-multiplatform / bloom-cardano-agent/Cargo.toml](https://github.com/splashprotocol/splash-offchain-multiplatform/blob/f23126425063d9d4dbf5ba07401f97737f99d3aa/bloom-cardano-agent/Cargo.toml) — checked 2026-10-22.
-  Source commit: `f23126425063d9d4dbf5ba07401f97737f99d3aa`.
+- **S023** [splashprotocol/splash-offchain-multiplatform / bloom-cardano-agent/Cargo.toml](https://github.com/splashprotocol/splash-offchain-multiplatform/blob/f23126425063d9d4dbf5ba07401f97737f99d3aa/bloom-cardano-agent/Cargo.toml).
   Commit date: 2026-07-16T10:06:39Z.
 
 <a id="source-s024"></a>
-- **S024** [splashprotocol/splash-offchain-multiplatform / cardano-chain-sync/Cargo.toml](https://github.com/splashprotocol/splash-offchain-multiplatform/blob/f23126425063d9d4dbf5ba07401f97737f99d3aa/cardano-chain-sync/Cargo.toml) — checked 2026-10-22.
-  Source commit: `f23126425063d9d4dbf5ba07401f97737f99d3aa`.
+- **S024** [splashprotocol/splash-offchain-multiplatform / cardano-chain-sync/Cargo.toml](https://github.com/splashprotocol/splash-offchain-multiplatform/blob/f23126425063d9d4dbf5ba07401f97737f99d3aa/cardano-chain-sync/Cargo.toml).
   Commit date: 2026-07-16T10:06:39Z.
 
 <a id="source-s025"></a>
-- **S025** [splashprotocol/splash-offchain-multiplatform / splash-testing-cardano/package.json](https://github.com/splashprotocol/splash-offchain-multiplatform/blob/f23126425063d9d4dbf5ba07401f97737f99d3aa/splash-testing-cardano/package.json) — checked 2026-10-22.
-  Source commit: `f23126425063d9d4dbf5ba07401f97737f99d3aa`.
+- **S025** [splashprotocol/splash-offchain-multiplatform / splash-testing-cardano/package.json](https://github.com/splashprotocol/splash-offchain-multiplatform/blob/f23126425063d9d4dbf5ba07401f97737f99d3aa/splash-testing-cardano/package.json).
   Commit date: 2026-07-16T10:06:39Z.
 
 <a id="source-s026"></a>
-- **S026** [CSWAP capabilities documentation](https://docs.cswap.fi/cswap-platform/cswap-dex-capabilities) — checked 2026-10-22.
+- **S026** [CSWAP capabilities documentation](https://docs.cswap.fi/cswap-platform/cswap-dex-capabilities).
 
 <a id="source-s027"></a>
-- **S027** [Trivolve official product portfolio](https://trivolvetech.com/) — checked 2026-10-22.
+- **S027** [Trivolve official product portfolio](https://trivolvetech.com/).
 
 <a id="source-s028"></a>
-- **S028** [Cardano Foundation June update](https://cardanofoundation.org/blog/june-2026-activities) — checked 2026-10-22.
+- **S028** [Cardano Foundation June update](https://cardanofoundation.org/blog/june-2026-activities).
 
 <a id="source-s029"></a>
-- **S029** [Team-authored IndianChain proposal](https://projectcatalyst.io/funds/14/cardano-use-cases-partners-and-products/indianchain-indian-governments-10m-settlements-on-cardano) — checked 2026-10-22.
+- **S029** [Team-authored IndianChain proposal](https://projectcatalyst.io/funds/14/cardano-use-cases-partners-and-products/indianchain-indian-governments-10m-settlements-on-cardano).
 
 <a id="source-s030"></a>
-- **S030** [spectrum-finance/cardano-dex-contracts / cardano-dex-contracts-onchain/cardano-dex-contracts-onchain.cabal](https://github.com/spectrum-finance/cardano-dex-contracts/blob/c25c8ab7daf52871d29efd00d3dac236cc9d6a36/cardano-dex-contracts-onchain/cardano-dex-contracts-onchain.cabal) — checked 2026-10-22.
-  Source commit: `c25c8ab7daf52871d29efd00d3dac236cc9d6a36`.
+- **S030** [spectrum-finance/cardano-dex-contracts / cardano-dex-contracts-onchain/cardano-dex-contracts-onchain.cabal](https://github.com/spectrum-finance/cardano-dex-contracts/blob/c25c8ab7daf52871d29efd00d3dac236cc9d6a36/cardano-dex-contracts-onchain/cardano-dex-contracts-onchain.cabal).
   Commit date: 2023-08-23T16:41:29Z.
 
 <a id="source-s031"></a>
-- **S031** [spectrum-finance/cardano-dex-sdk-haskell / cardano-tx/cardano-tx.cabal](https://github.com/spectrum-finance/cardano-dex-sdk-haskell/blob/39d53d78fce1cf20b78b10bff9a9fc73b747cf2a/cardano-tx/cardano-tx.cabal) — checked 2026-10-22.
-  Source commit: `39d53d78fce1cf20b78b10bff9a9fc73b747cf2a`.
+- **S031** [spectrum-finance/cardano-dex-sdk-haskell / cardano-tx/cardano-tx.cabal](https://github.com/spectrum-finance/cardano-dex-sdk-haskell/blob/39d53d78fce1cf20b78b10bff9a9fc73b747cf2a/cardano-tx/cardano-tx.cabal).
   Commit date: 2023-06-02T08:57:20Z.
 
 <a id="source-s032"></a>
-- **S032** [VyFinance official docs](https://docs.vyfi.io/) — checked 2026-10-22.
+- **S032** [VyFinance official docs](https://docs.vyfi.io/).
 
 <a id="source-s033"></a>
-- **S033** [Officially linked GitHub organisation](https://github.com/vyfi) — checked 2026-10-22.
+- **S033** [Officially linked GitHub organisation](https://github.com/vyfi).
 
 <a id="source-s034"></a>
-- **S034** [Anvil Wayup integration documentation (indexed content)](https://dev.ada-anvil.io/wayup) — checked 2026-10-22.
+- **S034** [Anvil Wayup integration documentation (indexed content)](https://dev.ada-anvil.io/wayup).
   Access limitation: Search-indexed primary text; direct page returned 404.
 
 <a id="source-s035"></a>
-- **S035** [DexHunter primary ShadowBook product mention](https://landing.dexhunter.io/) — checked 2026-10-22.
+- **S035** [DexHunter primary ShadowBook product mention](https://landing.dexhunter.io/).
 
 <a id="source-s036"></a>
-- **S036** [Liqwid-Labs/liqwid-libs / README.md](https://github.com/Liqwid-Labs/liqwid-libs/blob/27c4b50edc39128a0506ed3ef0e065b270377def/README.md) — checked 2026-10-22.
-  Source commit: `27c4b50edc39128a0506ed3ef0e065b270377def`.
+- **S036** [Liqwid-Labs/liqwid-libs / README.md](https://github.com/Liqwid-Labs/liqwid-libs/blob/27c4b50edc39128a0506ed3ef0e065b270377def/README.md).
   Commit date: 2024-08-23T13:46:39Z.
 
 <a id="source-s037"></a>
-- **S037** [Liqwid-Labs/liqwid-libs / liqwid-plutarch-extra/liqwid-plutarch-extra.cabal](https://github.com/Liqwid-Labs/liqwid-libs/blob/27c4b50edc39128a0506ed3ef0e065b270377def/liqwid-plutarch-extra/liqwid-plutarch-extra.cabal) — checked 2026-10-22.
-  Source commit: `27c4b50edc39128a0506ed3ef0e065b270377def`.
+- **S037** [Liqwid-Labs/liqwid-libs / liqwid-plutarch-extra/liqwid-plutarch-extra.cabal](https://github.com/Liqwid-Labs/liqwid-libs/blob/27c4b50edc39128a0506ed3ef0e065b270377def/liqwid-plutarch-extra/liqwid-plutarch-extra.cabal).
   Commit date: 2024-08-23T13:46:39Z.
 
 <a id="source-s038"></a>
-- **S038** [Indigo official documentation](https://docs.indigoprotocol.io/) — checked 2026-10-22.
+- **S038** [Indigo official documentation](https://docs.indigoprotocol.io/).
 
 <a id="source-s039"></a>
-- **S039** [Historical official contract URL](https://github.com/IndigoProtocol/indigo-smart-contracts) — checked 2026-10-22.
+- **S039** [Historical official contract URL](https://github.com/IndigoProtocol/indigo-smart-contracts).
   Access limitation: Direct GitHub and API 404; historical primary content indexed.
 
 <a id="source-s040"></a>
-- **S040** [UVerify-io/uverify-backend / README.md](https://github.com/UVerify-io/uverify-backend/blob/cb1fb2ecef3cee3fe63138898a99c7a5ae1e9865/README.md) — checked 2026-10-22.
-  Source commit: `cb1fb2ecef3cee3fe63138898a99c7a5ae1e9865`.
+- **S040** [UVerify-io/uverify-backend / README.md](https://github.com/UVerify-io/uverify-backend/blob/cb1fb2ecef3cee3fe63138898a99c7a5ae1e9865/README.md).
   Commit date: 2026-09-24T06:24:54Z.
 
 <a id="source-s041"></a>
-- **S041** [UVerify-io/uverify-backend / pom.xml](https://github.com/UVerify-io/uverify-backend/blob/cb1fb2ecef3cee3fe63138898a99c7a5ae1e9865/pom.xml) — checked 2026-10-22.
-  Source commit: `cb1fb2ecef3cee3fe63138898a99c7a5ae1e9865`.
+- **S041** [UVerify-io/uverify-backend / pom.xml](https://github.com/UVerify-io/uverify-backend/blob/cb1fb2ecef3cee3fe63138898a99c7a5ae1e9865/pom.xml).
   Commit date: 2026-09-24T06:24:54Z.
 
 <a id="source-s042"></a>
-- **S042** [UVerify-io/uverify-examples / README.md](https://github.com/UVerify-io/uverify-examples/blob/a822d08748e7373c8f25195185bad8a99cfa40ba/README.md) — checked 2026-10-22.
-  Source commit: `a822d08748e7373c8f25195185bad8a99cfa40ba`.
+- **S042** [UVerify-io/uverify-examples / README.md](https://github.com/UVerify-io/uverify-examples/blob/a822d08748e7373c8f25195185bad8a99cfa40ba/README.md).
   Commit date: 2026-07-04T18:12:26Z.
 
 <a id="source-s043"></a>
-- **S043** [UVerify-io/uverify-examples / sandbox/bootstrap/package.json](https://github.com/UVerify-io/uverify-examples/blob/a822d08748e7373c8f25195185bad8a99cfa40ba/sandbox/bootstrap/package.json) — checked 2026-10-22.
-  Source commit: `a822d08748e7373c8f25195185bad8a99cfa40ba`.
+- **S043** [UVerify-io/uverify-examples / sandbox/bootstrap/package.json](https://github.com/UVerify-io/uverify-examples/blob/a822d08748e7373c8f25195185bad8a99cfa40ba/sandbox/bootstrap/package.json).
   Commit date: 2026-07-04T18:12:26Z.
 
 <a id="source-s044"></a>
-- **S044** [masumi-network/masumi-payment-service / smart-contracts/payment-v2/aiken.toml](https://github.com/masumi-network/masumi-payment-service/blob/7cb71dba4445a330d179a3859f4fe7be0b43b23e/smart-contracts/payment-v2/aiken.toml) — checked 2026-10-22.
-  Source commit: `7cb71dba4445a330d179a3859f4fe7be0b43b23e`.
+- **S044** [masumi-network/masumi-payment-service / smart-contracts/payment-v2/aiken.toml](https://github.com/masumi-network/masumi-payment-service/blob/7cb71dba4445a330d179a3859f4fe7be0b43b23e/smart-contracts/payment-v2/aiken.toml).
   Commit date: 2026-10-21T09:28:20Z.
 
 <a id="source-s045"></a>
-- **S045** [masumi-network/masumi-payment-service / package.json](https://github.com/masumi-network/masumi-payment-service/blob/7cb71dba4445a330d179a3859f4fe7be0b43b23e/package.json) — checked 2026-10-22.
-  Source commit: `7cb71dba4445a330d179a3859f4fe7be0b43b23e`.
+- **S045** [masumi-network/masumi-payment-service / package.json](https://github.com/masumi-network/masumi-payment-service/blob/7cb71dba4445a330d179a3859f4fe7be0b43b23e/package.json).
   Commit date: 2026-10-21T09:28:20Z.
 
 <a id="source-s046"></a>
-- **S046** [masumi-network/masumi-payment-service / packages/payment-source-v2/package.json](https://github.com/masumi-network/masumi-payment-service/blob/7cb71dba4445a330d179a3859f4fe7be0b43b23e/packages/payment-source-v2/package.json) — checked 2026-10-22.
-  Source commit: `7cb71dba4445a330d179a3859f4fe7be0b43b23e`.
+- **S046** [masumi-network/masumi-payment-service / packages/payment-source-v2/package.json](https://github.com/masumi-network/masumi-payment-service/blob/7cb71dba4445a330d179a3859f4fe7be0b43b23e/packages/payment-source-v2/package.json).
   Commit date: 2026-10-21T09:28:20Z.
 
 <a id="source-s047"></a>
-- **S047** [masumi-network/masumi-payment-service / README.md](https://github.com/masumi-network/masumi-payment-service/blob/7cb71dba4445a330d179a3859f4fe7be0b43b23e/README.md) — checked 2026-10-22.
-  Source commit: `7cb71dba4445a330d179a3859f4fe7be0b43b23e`.
+- **S047** [masumi-network/masumi-payment-service / README.md](https://github.com/masumi-network/masumi-payment-service/blob/7cb71dba4445a330d179a3859f4fe7be0b43b23e/README.md).
   Commit date: 2026-10-21T09:28:20Z.
 
 <a id="source-s048"></a>
-- **S048** [MuesliSwapTeam/muesliswap-liquidity-efficient-dex / concentrated-lp/onchain/concentrated-liquidity-pools.cabal](https://github.com/MuesliSwapTeam/muesliswap-liquidity-efficient-dex/blob/d0d96b9d518bb36d970be91145e86cd348712e86/concentrated-lp/onchain/concentrated-liquidity-pools.cabal) — checked 2026-10-22.
-  Source commit: `d0d96b9d518bb36d970be91145e86cd348712e86`.
+- **S048** [MuesliSwapTeam/muesliswap-liquidity-efficient-dex / concentrated-lp/onchain/concentrated-liquidity-pools.cabal](https://github.com/MuesliSwapTeam/muesliswap-liquidity-efficient-dex/blob/d0d96b9d518bb36d970be91145e86cd348712e86/concentrated-lp/onchain/concentrated-liquidity-pools.cabal).
   Commit date: 2024-08-08T12:01:29Z.
 
 <a id="source-s049"></a>
-- **S049** [MuesliSwapTeam/muesliswap-liquidity-efficient-dex / orderbook/pyproject.toml](https://github.com/MuesliSwapTeam/muesliswap-liquidity-efficient-dex/blob/d0d96b9d518bb36d970be91145e86cd348712e86/orderbook/pyproject.toml) — checked 2026-10-22.
-  Source commit: `d0d96b9d518bb36d970be91145e86cd348712e86`.
+- **S049** [MuesliSwapTeam/muesliswap-liquidity-efficient-dex / orderbook/pyproject.toml](https://github.com/MuesliSwapTeam/muesliswap-liquidity-efficient-dex/blob/d0d96b9d518bb36d970be91145e86cd348712e86/orderbook/pyproject.toml).
   Commit date: 2024-08-08T12:01:29Z.
 
 <a id="source-s050"></a>
-- **S050** [MuesliSwapTeam/muesliswap-liquidity-efficient-dex / concentrated-lp/offchain/pyproject.toml](https://github.com/MuesliSwapTeam/muesliswap-liquidity-efficient-dex/blob/d0d96b9d518bb36d970be91145e86cd348712e86/concentrated-lp/offchain/pyproject.toml) — checked 2026-10-22.
-  Source commit: `d0d96b9d518bb36d970be91145e86cd348712e86`.
+- **S050** [MuesliSwapTeam/muesliswap-liquidity-efficient-dex / concentrated-lp/offchain/pyproject.toml](https://github.com/MuesliSwapTeam/muesliswap-liquidity-efficient-dex/blob/d0d96b9d518bb36d970be91145e86cd348712e86/concentrated-lp/offchain/pyproject.toml).
   Commit date: 2024-08-08T12:01:29Z.
 
 <a id="source-s051"></a>
-- **S051** [MuesliSwapTeam/muesliswap-liquidity-efficient-dex / README.md](https://github.com/MuesliSwapTeam/muesliswap-liquidity-efficient-dex/blob/d0d96b9d518bb36d970be91145e86cd348712e86/README.md) — checked 2026-10-22.
-  Source commit: `d0d96b9d518bb36d970be91145e86cd348712e86`.
+- **S051** [MuesliSwapTeam/muesliswap-liquidity-efficient-dex / README.md](https://github.com/MuesliSwapTeam/muesliswap-liquidity-efficient-dex/blob/d0d96b9d518bb36d970be91145e86cd348712e86/README.md).
   Commit date: 2024-08-08T12:01:29Z.
 
 <a id="source-s052"></a>
-- **S052** [MuesliSwapTeam/muesliswap-market-maker / README.md](https://github.com/MuesliSwapTeam/muesliswap-market-maker/blob/d15eee7c5759404fe09633bdb0ecbbc920c52f45/README.md) — checked 2026-10-22.
-  Source commit: `d15eee7c5759404fe09633bdb0ecbbc920c52f45`.
+- **S052** [MuesliSwapTeam/muesliswap-market-maker / README.md](https://github.com/MuesliSwapTeam/muesliswap-market-maker/blob/d15eee7c5759404fe09633bdb0ecbbc920c52f45/README.md).
   Commit date: 2025-09-18T20:07:04Z.

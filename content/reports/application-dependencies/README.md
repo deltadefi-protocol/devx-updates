@@ -22,23 +22,15 @@ The extended [map](cardano-graph.json), dated 26 October 2026, has 302 entries
 and 304 links. It preserves the 269 baseline entries and 248 baseline links,
 adds 33 identities and 56 links, and corrects 26 repository fields.
 
-## Evidence and interpretation
+## Evidence scope
 
-The frozen [activity report](volume-source/README.md) was generated on 16 October
-for 16 September–16 October 2026. Application counts prioritise the research;
-they may overlap and are not assigned to tools. Source-package and documentation
-observations checked on 22 October retain their component scope, dates and
-prototype, testing, optional or historical qualifications.
-
-The dependency table contains the source citations supporting the map extension.
-The [baseline](baseline.md) and [repository observations](repository-observations.json)
-identify the comparison input and dated repository checks. Unknown deployment stacks
-remain unknown; inherited links are not validated by the newly sourced links.
-
-The [scores](scores.csv) use the
-[evaluation methodology](https://github.com/deltadefi-protocol/devx-updates/blob/94e7860559fc2aeb55d921191b039f00cc3b14a5/content/reports/tooling-evidence/methodology.md)
-with 60/10/30 usage, stars and connectivity weights. Missing inputs produce ranges,
-not zero scores. Review candidates are not funding recommendations.
+Dependency observations are dated **22 October 2026**. The frozen activity source
+covers **16 September–16 October 2026**. Counts may overlap and are not assigned
+to tools; manifest, optional, testing and historical relationships retain their
+qualifications. Inherited baseline links remain unverified unless explicitly sourced.
+See the [analysis](dependency-analysis.md) and [scoring summary](package-importance-report.md#scoring-summary)
+for interpretation, and the [methodology](https://github.com/deltadefi-protocol/devx-updates/blob/94e7860559fc2aeb55d921191b039f00cc3b14a5/content/reports/tooling-evidence/methodology.md)
+for scoring rules.
 
 ## Supporting data
 

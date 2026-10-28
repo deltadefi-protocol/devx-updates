@@ -21,28 +21,18 @@ Captured **2026-10-22 at 05:50 UTC**. Exact upstream bytes are in
 | Application rows | 56 |
 | Metadata-label rows | 73 |
 
-All figures above come from the captured report or capture procedure on 2026-10-22.
-The reporting timestamps contain no timezone suffix; they are retained without conversion.
+Reporting timestamps have no timezone suffix. The
+[immutable source](https://github.com/cardano-foundation/cardano-org/blob/85eb8c314fab8af16f6318764750da45161ae8b9/src/data/tx-stats.json)
+and [live leaderboard](https://cardano.org/apps/leaderboard/) matched on period,
+epoch, network total and top count (1,724,962) when checked on **2026-10-22**.
+The website's deployed commit was not independently established.
 
-## Source and publication check
+## Interpretation
 
-[Immutable report](https://github.com/cardano-foundation/cardano-org/blob/85eb8c314fab8af16f6318764750da45161ae8b9/src/data/tx-stats.json).
-This is the report at the latest `staging` commit returned by GitHub when captured.
-The file history endpoint identifies the last report-file commit shown above.
-The [live leaderboard](https://cardano.org/apps/leaderboard/), checked 2026-10-22,
-shows the same period, epoch, network total and top application count (1,724,962).
-Those observations support the published-report match; the website's deployed commit
-was not independently established. The report is a published snapshot, not real-time data.
+Application counts prioritise research; they may overlap and cannot be subtracted
+from the network total to derive unattributed volume. Metadata-label counts are
+separate from application counts. This snapshot does not rerun the underlying
+queries, identify SDK-generated transactions or verify dependencies.
 
-## Use
-
-Use application transaction counts to prioritise stack research. Keep `appStats`
-separate from `metadataLabelStats`; registered metadata standards are not automatically
-named applications. Preserve the report without reclassification or filtering.
-Application totals may overlap; do not sum them as unique network coverage or infer
-unattributed volume by subtracting their sum from the network total.
-This capture does not rerun the underlying db-sync queries, establish SDK transaction
-counts, verify stack dependencies or change the tooling scoring method.
-
-Attribution details: [published methodology](https://cardano.org/docs/get-involved/tx-rankings/)
-and [generator](https://github.com/cardano-foundation/tx-leaderboard-script).
+[Attribution methodology](https://cardano.org/docs/get-involved/tx-rankings/) ·
+[Source generator](https://github.com/cardano-foundation/tx-leaderboard-script).

@@ -10,15 +10,10 @@ Reporting window, verbatim: `2026-09-16T21:45:52` to `2026-10-16T21:44:37`
 
 ## Method
 
-All application rows are retained with their original labels, names and counts.
-Order is descending `txCount`; equal counts share a competition rank (1, 2, 2, 4).
-Ties are displayed by source label. Ranking is recomputed, not copied from source rank fields.
-Every count below has the reporting window and source stated above.
-No cutoff is applied. Distribution activity remains included alongside other application types.
-
-Activity determines the order of stack research. It does not measure users, economic value,
-code quality or SDK-generated transactions, and does not change the tooling score.
-Transactions may count for multiple applications; row sums are not unique network coverage.
+All application and metadata rows are retained separately and ordered by descending
+transaction count. Ties use competition ranks, ordered by source label. Activity
+prioritises stack research; counts may overlap and do not measure users, value,
+code quality or SDK-generated transactions.
 
 ## Application ranking
 
@@ -86,22 +81,16 @@ and devnet. Unknown means not researched in this table, not that no dependency e
 
 ## Research scope and activity share
 
-Desk review covers 20 of the first 20 application rows selected for desk review on 2026-10-22.
-Those 20 rows sum to **2,178,402 application-attributed counts** out of
-**2,184,400** summed across all application rows: **99.73%**.
-Both totals are calculated from the frozen `appStats` for the reporting window above.
-This is a share of summed application counts, not unique network transactions,
-verified production-stack coverage or SDK-attributed activity. Metadata counts are excluded.
-Hosky remains a particularly large evidence gap: its public claim prototype does not
-establish the production distribution stack. Unknown top-20 stacks remain unresolved.
+Desk review covers the first twenty applications, checked **2026-10-22**.
+Their **2,178,402** counts are **99.73%** of the **2,184,400** summed application counts.
+This is a prioritisation statistic, not unique-network or verified-stack coverage.
+Hosky's large count remains a particular gap: its public prototype does not establish
+the production distribution stack.
 
 ## Stack research
 
-Desk observations checked on 2026-10-22. Component evidence is not a deployment attestation
-and does not attribute the reporting-period transaction totals to a particular SDK.
-Sources capture the state checked on that date; later repository revisions do not prove
-the same stack was used during the earlier transaction window.
-Unknown fields are evidence gaps, not confirmed absences.
+The observations below apply to named components, not complete deployments.
+Snapshots can postdate the activity window; missing evidence remains unknown.
 
 <a id="stack-research-hosky"></a>
 ### Hosky
