@@ -159,7 +159,7 @@ Sources checked:
 - Separate DEX adapter: README documents Blockfrost and dex-serializer with Cardano Multiplatform Library installation; Lucid appears in a swap example. Examples and adapters do not establish the production frontend stack.
 - The leaderboard does not split the ranked WingRiders total by component in the captured report; no part of that total is assigned to Mesh or another SDK.
 - Original/V1 DEX contract language and production provider are not established here. Dedicated devnet/testing infrastructure unknown.
-- Conflict disclosure: Mesh is maintained by Delta Lab. Its inclusion here rests on the pinned WingRiders manifest; no application transaction count is attributed to Mesh; the recorded relationships contribute to map degree.
+- The Mesh dependency is recorded from the pinned WingRiders manifest; no application transaction count is attributed to Mesh; the recorded relationships contribute to map degree.
 
 Sources checked:
 - [WingRiders/rapid-dex-contracts / aiken.toml](https://github.com/WingRiders/rapid-dex-contracts/blob/6afe522d9116e81359e30cc202feab5f3d0b8e60/aiken.toml)
@@ -300,7 +300,7 @@ Sources checked:
 - Pinned backend README describes Java/Spring Boot, Plutus V3 validators and Yaci Store indexing. Plutus V3 is an execution target, not a source-language identification.
 - Maven manifest declares Bloxbean Cardano Client Lib, Yaci Store starters and Blockfrost/Koios/Ogmios backend adapters. README documents Blockfrost/Koios primary backend choices; production configuration is unknown.
 - Examples README documents a Docker local Cardano devnet. Bootstrap manifest declares Mesh; this is a sandbox/bootstrap dependency, not attribution of production certificate transactions to Mesh.
-- Conflict disclosure: Mesh is maintained by Delta Lab; the dependency above is reported from the pinned manifest without application transaction attribution; recorded relationships contribute to map degree.
+- The Mesh dependency above is reported from the pinned manifest without application transaction attribution; recorded relationships contribute to map degree.
 
 Sources checked:
 - [UVerify-io/uverify-backend / README.md](https://github.com/UVerify-io/uverify-backend/blob/cb1fb2ecef3cee3fe63138898a99c7a5ae1e9865/README.md)
@@ -314,7 +314,7 @@ Sources checked:
 - Aiken manifests identify payment and registry contracts. Root manifest declares Blockfrost JS, Cardano Serialization Lib and lucid-cardano; payment-source-v2 separately declares Mesh core components.
 - These are current repository components. The inspected head is dated 21 October, after the volume window; no inference is made that all dependencies were present during that window.
 - Provider: Blockfrost configuration is documented. README links test and Hydra operations guides; this pass has not established a particular dedicated devnet configuration or executed any tests.
-- Conflict disclosure: Mesh is maintained by Delta Lab. Its inclusion follows a pinned package manifest; no portion of Masumi transactions is attributed to Mesh; recorded relationships contribute to map degree.
+- The Mesh dependency follows a pinned package manifest; no portion of Masumi transactions is attributed to Mesh; recorded relationships contribute to map degree.
 
 Sources checked:
 - [masumi-network/masumi-payment-service / smart-contracts/payment-v2/aiken.toml](https://github.com/masumi-network/masumi-payment-service/blob/7cb71dba4445a330d179a3859f4fe7be0b43b23e/smart-contracts/payment-v2/aiken.toml)

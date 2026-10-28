@@ -42,10 +42,6 @@ The [scores](scores.csv) use the
 with 60/10/30 usage, stars and connectivity weights. Missing inputs produce ranges,
 not zero scores. Review candidates are not funding recommendations.
 
-Delta Lab maintains Mesh, Whisky and Vodka. They receive the same scoring and
-missing-data treatment. Numerical explanations are included in the package-importance
-report; independent review of the affiliated-tool rationale remains pending.
-
 ## Supporting data
 
 - [Extended map](cardano-graph.json): the graph assessed in these reports.

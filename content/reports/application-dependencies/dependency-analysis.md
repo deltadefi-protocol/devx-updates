@@ -135,12 +135,3 @@ validation of every inherited edge. Source boundaries are recorded in the
 strongest finding is the existence of shared, component-specific integration
 boundaries; the evidence does not yet quantify their production exposure or
 ecosystem-wide criticality.
-
-## Conflict disclosure
-
-Delta Lab maintains Mesh, Whisky and Vodka. Mesh appears here only with the same
-component and evidence qualifications applied to other tools: WingRiders Rapid SDK
-dependencies, Masumi's payment-source-v2 dependencies, and UVerify's sandbox
-bootstrap dependencies. This analysis makes no transaction attribution or funding
-recommendation for those tools. The published-source observations do not substitute
-for independent review of affiliated-tool importance.

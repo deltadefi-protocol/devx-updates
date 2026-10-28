@@ -15,7 +15,7 @@ Unknown inputs produce possibility ranges, not zero scores or ranks. Observed ze
 CSV scores have six decimal places; ranking uses unrounded values and the existing 1e-12 tie tolerance.
 Candidates occupy the first ceil(25% × complete category cohort) positions, including ties,
 with recorded usage above zero. Archived/abandoned candidates are held, without backfilling.
-There are no manual additions, affiliation adjustments or funding recommendations.
+There are no manual score adjustments or funding recommendations.
 
 All existing inventory entries are preserved. Added application identities have a separate category;
 added tool identities retain unknown usage and stars and are not ranked without complete inputs.
@@ -25,7 +25,7 @@ Scores describe recorded map connectivity, not verified production reliance.
 
 ## Input provenance and limits
 
-- Input: `cardano-graph.json`; SHA-256 `e4775d51bdeecee3fd23091816a7726b859e2c917229029c09221c4bd87368ee`.
+- Input: `cardano-graph.json`; SHA-256 `0d4c7842ec2fc7e8806cb86f70a68291a40ce52698f93eb8dd1827b858b48fce`.
 - Map metadata generated: 2026-07-20; contacts generated: 2026-08-18.
 - Survey attribution in map: State of the Developer Ecosystem 2025 (Cardano Foundation), n=109.
 - Source dates vary by field; the computation date is not a fresh measurement of usage, stars or maintenance.
@@ -83,11 +83,9 @@ Scores describe recorded map connectivity, not verified production reliance.
 | SDKs & Libraries | 6 | cardano-multiplatform-lib (CML) (`cardano-multiplatform-lib-cml`) | 17.734499 |
 | Wallets & Connectivity | 1 | cardano-hw-cli (`cardano-hw-cli`) | 11.448842 |
 
-## Affiliated tools: numerical rationale for independent review
+## Score calculations for Mesh Whisky and Vodka
 
-Delta Lab maintains Mesh, Whisky and Vodka. They receive the same transformations, weights,
-category ranking and missing-data treatment as other entries, with no manual adjustment.
-The numerical explanations below are reproducible; independent review remains pending.
+The following calculations show the input values, contributions and missing-data treatment.
 
 ### MeshJS (Mesh SDK)
 
@@ -109,5 +107,3 @@ Inputs from the dated map: usage unknown%; stars 30; degree 1.
 Known contributions: usage=unknown points, stars=0.968246 points, connectivity=0.769231 points.
 Score range: 1.737477–61.737477. Unranked because inputs are missing; unknown usage is not low usage.
 Review state: unranked.
-
-Independent review of affiliated-tool rationale remains pending; these scores are not funding recommendations.

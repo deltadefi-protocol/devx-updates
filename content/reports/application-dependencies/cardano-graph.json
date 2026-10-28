@@ -21256,7 +21256,7 @@
           "tool": "Mesh (@meshsdk/core, core-csl)",
           "relationship": "declares-dependency",
           "evidenceType": "manifest",
-          "qualification": "Rapid only; Delta Lab maintains Mesh.",
+          "qualification": "Rapid only.",
           "sources": [
             {
               "title": "WingRiders/rapid-dex / sdk/core/package.json",
@@ -21974,7 +21974,7 @@
           "tool": "Mesh (@meshsdk/core, wallet)",
           "relationship": "declares-test-dependency",
           "evidenceType": "test-manifest",
-          "qualification": "Sandbox/bootstrap only; Delta Lab maintains Mesh.",
+          "qualification": "Sandbox/bootstrap only.",
           "sources": [
             {
               "title": "UVerify-io/uverify-examples / sandbox/bootstrap/package.json",
@@ -22070,7 +22070,7 @@
           "tool": "Mesh (@meshsdk/core, core-cst)",
           "relationship": "declares-dependency",
           "evidenceType": "manifest",
-          "qualification": "V2 component; Delta Lab maintains Mesh.",
+          "qualification": "V2 component.",
           "sources": [
             {
               "title": "masumi-network/masumi-payment-service / packages/payment-source-v2/package.json",

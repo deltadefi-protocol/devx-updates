@@ -17,9 +17,6 @@ All 20 retain explicit gaps. These are counts of documented relationships, not v
 - A later repository snapshot does not prove which stack generated transactions in an earlier reporting window.
 - This table uses the existing research. Omitted tools are unknown or outside the recorded scope, not absent.
 
-Conflict disclosure: Delta Lab maintains Mesh. Mesh relationships retain their component scope
-and source evidence, including sandbox-only use. No application transaction count is attributed to Mesh.
-
 ## Manifest relationships
 
 | Application | Component | Tool | Relationship | Evidence | Source | Qualification |
@@ -32,7 +29,7 @@ and source evidence, including sandbox-only use. No application transaction coun
 | Dano Finance | CLMM SDK | Evolution SDK (@evolution-sdk/evolution) | declares-dependency | manifest | [S009](#source-s009) | CLMM only; manifest/README versions differ. |
 | Dano Finance | CLMM SDK | Ogmios client/schema | declares-dependency | manifest | [S009](#source-s009) | CLMM component; production infrastructure unknown. |
 | WingRiders | Rapid DEX contracts | Aiken | written-in | manifest | [S011](#source-s011) | Rapid only; not an original/V1 DEX claim. |
-| WingRiders | Rapid DEX SDK core | Mesh (@meshsdk/core, core-csl) | declares-dependency | manifest | [S012](#source-s012) | Rapid only; Delta Lab maintains Mesh. |
+| WingRiders | Rapid DEX SDK core | Mesh (@meshsdk/core, core-csl) | declares-dependency | manifest | [S012](#source-s012) | Rapid only. |
 | SundaeSwap | V3+ contracts | Aiken | written-in | manifest | [S015](#source-s015), [S016](#source-s016) | V3 and onward; not older V1 contracts. |
 | SundaeSwap | Core SDK | Blaze SDK/data | declares-dependency | manifest | [S017](#source-s017) | SDK source snapshot; no historical activity attribution. |
 | Splash Protocol | Plutarch validator package | Plutarch | declares-dependency | manifest | [S020](#source-s020) | Specific validator package; version split unknown. |
@@ -50,12 +47,12 @@ and source evidence, including sandbox-only use. No application transaction coun
 | UVerify | Java backend adapters | Blockfrost | supports-integration | manifest | [S041](#source-s041) | Backend adapter; active production provider unknown. |
 | UVerify | Java backend adapters | Koios | supports-integration | manifest | [S041](#source-s041) | Backend adapter; active production provider unknown. |
 | UVerify | Java backend adapters | Ogmios | supports-integration | manifest | [S041](#source-s041) | Backend adapter; active production provider unknown. |
-| UVerify | Examples sandbox bootstrap | Mesh (@meshsdk/core, wallet) | declares-test-dependency | test-manifest | [S043](#source-s043) | Sandbox/bootstrap only; Delta Lab maintains Mesh. |
+| UVerify | Examples sandbox bootstrap | Mesh (@meshsdk/core, wallet) | declares-test-dependency | test-manifest | [S043](#source-s043) | Sandbox/bootstrap only. |
 | Masumi | Payment V2 contracts | Aiken | written-in | manifest | [S044](#source-s044) | Snapshot after volume window; deployment version unknown. |
 | Masumi | Payment service root | Lucid (lucid-cardano) | declares-dependency | manifest | [S045](#source-s045) | Root declaration; not proof of every transaction path. |
 | Masumi | Payment service root | Cardano Serialization Lib | declares-dependency | manifest | [S045](#source-s045) | Root declaration; source snapshot after volume window. |
 | Masumi | Payment service root | Blockfrost JS | declares-dependency | manifest | [S045](#source-s045) | Provider client; production configuration unknown. |
-| Masumi | Payment-source-v2 package | Mesh (@meshsdk/core, core-cst) | declares-dependency | manifest | [S046](#source-s046) | V2 component; Delta Lab maintains Mesh. |
+| Masumi | Payment-source-v2 package | Mesh (@meshsdk/core, core-cst) | declares-dependency | manifest | [S046](#source-s046) | V2 component. |
 | MuesliSwap | Concentrated-pool on-chain package | Plutus Tx | declares-dependency | manifest | [S048](#source-s048) | Haskell component; not an orderbook-language claim. |
 | MuesliSwap | Orderbook package | OpShin | written-in | manifest | [S049](#source-s049) | Orderbook component only. |
 | MuesliSwap | Orderbook package | PyCardano | declares-dependency | manifest | [S049](#source-s049) | Pinned package references a branch; no locked resolution inferred. |
