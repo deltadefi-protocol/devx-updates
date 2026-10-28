@@ -7,33 +7,9 @@ Computed as of **2026-10-26** from the pinned local map.
 **229 unranked score ranges**. **25 review candidates**;
 **0 status holds**. Counts are computed from the input identified below.
 
-## Method and interpretation
+## Scoring summary
 
-Score = 100 × (0.6 × usage/100 + 0.1 × sqrt(stars)/sqrt(max stars) + 0.3 × degree/max degree).
-Normalizers use the whole input map, each floored at one. Ranks are within category only.
-Unknown inputs produce possibility ranges, not zero scores or ranks. Observed zero remains zero.
-CSV scores have six decimal places; ranking uses unrounded values and the existing 1e-12 tie tolerance.
-Candidates occupy the first ceil(25% × complete category cohort) positions, including ties,
-with recorded usage above zero. Archived/abandoned candidates are held, without backfilling.
-There are no manual score adjustments or funding recommendations.
-
-All existing inventory entries are preserved. Added application identities have a separate category;
-added tool identities retain unknown usage and stars and are not ranked without complete inputs.
-Application transaction counts are not scoring inputs. Sourced application relationships now
-contribute to graph degree, including qualified optional, test and historical connections.
-Scores describe recorded map connectivity, not verified production reliance.
-
-## Input provenance and limits
-
-- Input: `cardano-graph.json`; SHA-256 `0d4c7842ec2fc7e8806cb86f70a68291a40ce52698f93eb8dd1827b858b48fce`.
-- Map metadata generated: 2026-07-20; contacts generated: 2026-08-18.
-- Survey attribution in map: State of the Developer Ecosystem 2025 (Cardano Foundation), n=109.
-- Source dates vary by field; the computation date is not a fresh measurement of usage, stars or maintenance.
-- Raw survey responses have not been independently audited in this run.
-- Degree measures both ends of all recorded graph relationship types, not verified incoming adoption.
-- Connectivity assumptions inherit unverified baseline links. Regenerate after any map-edge changes.
-- Missing-input ranges are conditional on observed normalizers, not statistical confidence intervals.
-- A candidate is a review prompt; an unranked or non-candidate tool is not a finding of low importance.
+Scores apply the linked methodology to the 26 October 2026 map snapshot, using usage, stars and connectivity. Rankings are within category; missing inputs produce ranges rather than ranks. Connectivity includes qualified and unverified relationships, so scores do not measure production reliance. Candidates are prompts for review, not funding recommendations.
 
 ## Category summary
 
