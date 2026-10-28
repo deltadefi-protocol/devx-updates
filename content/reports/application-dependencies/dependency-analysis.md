@@ -1,6 +1,6 @@
 # Application dependency analysis
 
-Analysis dated **2026-10-26**. This analysis synthesises public-source desk
+This analysis synthesises public-source desk
 observations checked **2026-10-22**; it does not refresh those sources or establish
 current deployment configurations. Source identifiers below link to the dated,
 qualified records in the [application dependency table](application-tool-dependencies.md).
@@ -131,7 +131,7 @@ Sources checked 2026-10-22:
 The extension also preserves baseline links whose claim-level evidence has not
 been independently verified. New sourced observations should not be read as
 validation of every inherited edge. Source boundaries are recorded in the
-[map changelog](changelog.md), assembled 2026-10-26. In our interpretation, the
+[map changelog](changelog.md) for the 26 October 2026 map snapshot. In our interpretation, the
 strongest finding is the existence of shared, component-specific integration
 boundaries; the evidence does not yet quantify their production exposure or
 ecosystem-wide criticality.

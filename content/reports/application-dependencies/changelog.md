@@ -3,7 +3,7 @@
 Baseline upstream commit: `a5a8788d23b5d9eeb9725440d904d7a887d9d033`.
 Baseline SHA-256: `eafbc0edbeab3ca978c1172ae82f0e428723323107861d22d5e678d5f85ab142`.
 
-Local extension assembled 2026-10-26; desk evidence checked 2026-10-22; repository corrections checked 2026-10-20.
+Map snapshot: **2026-10-26**. Dependency observations: **2026-10-22**. Repository checks: **2026-10-20**.
 Sources below support only the stated changes.
 Existing baseline claims remain unverified unless explicitly sourced by this extension.
 Unknown maintenance, usage and stars stay unknown. Application counts are not propagated to tools.

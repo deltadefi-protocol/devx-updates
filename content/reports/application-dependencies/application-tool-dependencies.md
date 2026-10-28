@@ -1,7 +1,7 @@
 # Application/component-to-tool dependencies
 
-Structured on **2026-10-23** from public-source desk observations checked **2026-10-22**.
-No new fieldwork or source refresh is implied. Sources and their original checked dates appear below.
+Public-source desk observations checked **2026-10-22**.
+Sources and their observation dates appear below.
 
 This table records **57 relationships** for **13 of 20 applications**;
 the remaining **7** have no established concrete tool relationship in this research.

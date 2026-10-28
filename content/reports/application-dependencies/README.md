@@ -1,7 +1,5 @@
 # Application dependencies and tooling evidence
 
-Prepared 27 October 2026; packaged for review on 28 October 2026.
-
 This directory contains an evidence snapshot. It does not replace the site’s
 `data/cardano-graph.json` or update the map viewer.
 
@@ -20,7 +18,7 @@ tooling scores and documented evidence gaps.
 | [Package importance](package-importance-report.md) | 73 ranked entries, 229 incomplete-input ranges and 25 review candidates |
 | [Repository evidence gaps](inconsistency-register.md) | 34 missing repository URLs and one dated 404 |
 
-The extended [map](cardano-graph.json), assembled on 26 October, has 302 entries
+The extended [map](cardano-graph.json), dated 26 October 2026, has 302 entries
 and 304 links. It preserves the 269 baseline entries and 248 baseline links,
 adds 33 identities and 56 links, and corrects 26 repository fields.
 

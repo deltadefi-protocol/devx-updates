@@ -1,6 +1,6 @@
 # Repository evidence gaps
 
-Documented 2026-10-26 from baseline and repository observations dated 2026-10-20.
+Based on the frozen baseline and repository observations dated **2026-10-20**.
 The 35 gaps comprise 34 missing repository URLs and one recorded HTTP 404.
 Missing URLs describe the map, not whether public source code exists. A dated 404
 is not evidence of abandonment. No team is classified non-responsive.
